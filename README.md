@@ -257,6 +257,12 @@ john --show hash.txt
 
 <hr>
 
+# 🐞 Problems Encountered & Solutions
+
+**Problem**: Present wordlist on network works didn't have the word suggestions for pdf 2 and 3.
+
+**Solution**: Networkwalks site had provision for inputting External wordlist. I inputted JTR wordlist.  
+
 # 📈 Skills Practiced
 
 - Password security
@@ -278,20 +284,19 @@ john --show hash.txt
 
 <hr>
 
-🙏 Acknowledgments
+# 🙏 Acknowledgments
+
 Special thanks to:
 
 **Waqas Karim (CCIE)**
-Instructor & Mentor
+- Instructor
 
 **NETWORKWALKS**
-For providing hands-on cybersecurity training and practical lab experience.
+- For providing hands-on cybersecurity training and practical lab experience.
 
 <hr>
 
 > ⚠️ Disclaimer
-This repository was created for educational and cybersecurity training purposes only.
-
-All password-cracking techniques demonstrated here were performed against authorized files and systems as part of a formal training environment.
-
-Unauthorized access, password cracking, or testing of systems without permission may be illegal.
+This repository was created for educational and cybersecurity training purposes only. 
+> All password-cracking techniques demonstrated here were performed against authorized files and systems as part of a formal training environment. 
+> Unauthorized access, password cracking, or testing of systems without permission may be illegal.
