@@ -67,7 +67,7 @@ The labs demonstrate password auditing techniques using:
 
 ### 🎯 Objective
 
-Crack the password of a password-protected PDF using John the Ripper (JTR) and its graphical interface, Johnny.
+Crack the password of a password-protected PDF using John the Ripper (JTR) and its graphical interface, Johnny GUI .
 
 ### 🛠️ Tools Used
 
@@ -146,7 +146,7 @@ Crack the password of a password-protected PDF using Networkwalks online securit
 4. Wordlist was added.
 5. All passwords were successfully recovered.
 
-###✅ Result
+### ✅ Result
 
 Cracked Password:
 
@@ -272,9 +272,9 @@ john --show hash.txt
   
 # Connect With Me
 
-💼 LinkedIn:
+💼 LinkedIn: `https://www.linkedin.com/in/opakunbi-oluwatumilara-79a394210?utm_source=share_via&utm_content=profile&utm_medium=member_android`
 
-🐙 GitHub:
+🐙 GitHub: `https://github.com/TumilaraEmmanuel`
 
 <hr>
 
