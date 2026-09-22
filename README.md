@@ -89,8 +89,8 @@ Crack the password of a password-protected PDF using John the Ripper (JTR) and i
 8. Successfully recovered the password.
 
 ### ✅ Result
-Cracked Password:
-`good-luck`
+Cracked Passwords:
+`good-luck` , `password1` and `1qaz2wsx`
 
 ### 📸 Screenshots
 
