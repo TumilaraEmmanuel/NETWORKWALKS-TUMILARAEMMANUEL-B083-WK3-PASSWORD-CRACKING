@@ -63,186 +63,233 @@ The labs demonstrate password auditing techniques using:
 
 # 📚 Labs Completed
 
-1️⃣ W3-PM1 — John the Ripper + Johnny GUI
-🎯 Objective
+## 1️⃣ W3-PM1 — John the Ripper + Johnny GUI
+
+### 🎯 Objective
+
 Crack the password of a password-protected PDF using John the Ripper (JTR) and its graphical interface, Johnny.
 
-🛠️ Tools Used
-Tool	Purpose
-John the Ripper 1.9.0-jumbo-1	Password cracking
-Johnny GUI 2.2	Graphical interface for JTR
-PDF Hash Extractor	Extract PDF password hash
-🔬 Methodology
-Downloaded and extracted John the Ripper.
-Downloaded and installed Johnny GUI.
-Configured Johnny to use john.exe.
-Extracted the PDF hash.
-Saved the extracted hash into hash.txt.
-Loaded the hash into Johnny.
-Performed a dictionary attack.
-Successfully recovered the password.
-✅ Result
+### 🛠️ Tools Used
+
+| Tool | Purpose |
+|---|---|
+|John the Ripper 1.9.0-jumbo-1 | Password cracking |
+| Johnny GUI 2.2	| Graphical interface for JTR |
+| PDF Hash Extractor	| Extract PDF password hash |
+
+### 🔬 Methodology
+
+1. Downloaded and extracted John the Ripper.
+2. Downloaded and installed Johnny GUI.
+3. Configured Johnny to use `john.exe` .
+4. Extracted the PDF hash.
+5. Saved the extracted hash into `hash.txt` .
+6. Loaded the hash into Johnny.
+7. Performed a dictionary attack.
+8. Successfully recovered the password.
+
+### ✅ Result
 Cracked Password:
+`good-luck`
 
-good-luck
+### 📸 Screenshots
 
-📸 Screenshots
-01 — JTR Download
-JTR Download
+01 — Johnny Installation and Setup
 
-02 — Johnny Installation
-Johnny Installation
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/37c826a37a36125bd6468263296ffb75f33a9dab/John%20The%20Ripper%20installation.png)
 
-03 — Johnny Settings
-Johnny Settings
+02 — Hash Extraction for Pdf 1
 
-04 — Hash Extracted
-Hash Extracted
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/632d27f59468ad29d5d2dc24ac5a664cc758548a/Hash%20Generation.png)
 
-05 — Hash Loaded
-Hash Loaded
+03 — Hash Loading for Pdf 1
 
-06 — Password Cracked
-Password Cracked
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/632d27f59468ad29d5d2dc24ac5a664cc758548a/Locked%20Pdf%201's%20Password.png)
 
-07 — Locked pdf
-Locked pdf
+04 — Pdf 1 Password Cracked
 
-08 — After Entering Password
-unlocked pdf
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/632d27f59468ad29d5d2dc24ac5a664cc758548a/PDF%201%20Cracked.png)
 
-2️⃣ W3-PM2 — Networkwalks Online Tools
-🎯 Objective
+05 — Pdf 2 Password cracking
+
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/632d27f59468ad29d5d2dc24ac5a664cc758548a/Locked%20Pdf%202's%20Password.png)
+
+06 — Pdf 2 Cracking result
+
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/632d27f59468ad29d5d2dc24ac5a664cc758548a/PDF%202%20Cracked.png)
+
+07 — Pdf 3 Password cracking
+
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/632d27f59468ad29d5d2dc24ac5a664cc758548a/Locked%20PDF%203's%20Password.png)
+
+08 — Pdf 4 Cracking result
+
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/632d27f59468ad29d5d2dc24ac5a664cc758548a/PDF%203%20Cracked.png)
+
+<hr>
+
+## 2️⃣ W3-PM2 — Networkwalks Online Tools
+### 🎯 Objective
 Crack the password of a password-protected PDF using Networkwalks online security tools.
 
-🛠️ Tools Used
-Tool	Purpose
-Networkwalks Hash Calculator	Generate/extract PDF hash
-Networkwalks Password Cracker	Password security testing
-🔬 Methodology
-Uploaded the PDF to the Networkwalks Hash Calculator.
-Generated the PDF hash.
-Copied the generated hash.
-Pasted the hash into the Password Cracker.
-Ran the available dictionary attack.
-Successfully recovered the password.
-✅ Result
+### 🛠️ Tools Used
+| Tool | Purpose |
+|---|---|
+| Networkwalks Hash Calculator	| Generate/extract PDF hash |
+| Networkwalks Password Cracker	| Password security testing |
+
+### 🔬 Methodology
+
+1. Locked PDFs were uploaded to Networkwalks Hash Calculator.
+2. PDF hashes were Generated for each locked Pdf. 
+3. Generated hash were copied and pasted into password Cracker.
+4. Wordlist was added.
+5. All passwords were successfully recovered.
+
+###✅ Result
+
 Cracked Password:
 
-password1
+`password1`
 
-📸 Screenshots
-01 — Hash Calculator
-Hash Calculator
+### 📸 Screenshots
 
-02 — Password Cracker
-Password Cracker
+01 — Hash Calculation for Pdf 1
 
-04 — Password Cracked
-Password Cracked
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/632d27f59468ad29d5d2dc24ac5a664cc758548a/Networkwalks%20Hash%20generation%20(PDF%201).png)
 
-05 — Unlocked pdf
-Unlocked pdf
+02 — Password Cracking for Pdf 1
 
-🏆 Flags Captured
-Module	Flag
-🔐 W3-PM1	nw[cybersecurity_flag_captured_2608]
-🌐 W3-PM2	nw{networkwalks_persistence_jtr_270521}
-📂 File Descriptions
-File	Description
-W3-PM1-JTR-Johnny/hash.txt	PDF hash extracted for JTR
-W3-PM1-JTR-Johnny/cracked-password.txt	Password recovered using JTR
-W3-PM1-JTR-Johnny/screenshots/	JTR + Johnny screenshots
-W3-PM2-NWTools/hash.txt	PDF hash generated using NW Tools
-W3-PM2-NWTools/cracked-password.txt	Password recovered using NW Tools
-W3-PM2-NWTools/screenshots/	Networkwalks screenshots
-flags.txt	Flags captured during the labs
-🧠 Key Learnings
-🔑 Hashing vs Encryption
-Hashing is generally a one-way transformation used to represent data as a fixed-length value.
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/632d27f59468ad29d5d2dc24ac5a664cc758548a/Networkwalks%20Pdf%20Cracking%20Success%201.png)
 
-Encryption is a reversible process where encrypted information can be decrypted using an appropriate key.
+03 — Hash Calculation for Pdf 2
+
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/632d27f59468ad29d5d2dc24ac5a664cc758548a/Networkwalks%20Locked%20hash%20generation%20PDF%202.png)
+
+04 — Password Cracking for Pdf 2 with the use of JTR wordlist
+
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/632d27f59468ad29d5d2dc24ac5a664cc758548a/Networkwalks%20PDF%20Cracking%20Success%202.png)
+
+05 — Hash Calculation for Pdf 3
+
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/632d27f59468ad29d5d2dc24ac5a664cc758548a/Networkwalks%20hash%20generation%20PDF%203.png)
+
+06 — Password Cracking for Pdf 3
+
+![image alt](https://github.com/TumilaraEmmanuel/NETWORKWALKS-TUMILARAEMMANUEL-B083-WK3-PASSWORD-CRACKING/blob/632d27f59468ad29d5d2dc24ac5a664cc758548a/Network%20PDF%20Cracking%20Success%203.png)
+
+# 🧠 Key Learnings
+
+## 🔑 Hashing vs Encryption
+
+**Hashing** is generally a one-way transformation used to represent data as a fixed-length value.
+
+**Encryption** is a reversible process where encrypted information can be decrypted using an appropriate key.
 
 Understanding this distinction is important when studying password storage and password attacks.
 
-📖 Dictionary Attacks
+## 📖 Dictionary Attacks
 A dictionary attack attempts passwords from a predefined wordlist.
 
 The labs demonstrated how predictable passwords such as:
 
-password1
-good-luck
+- `password1`
+- `good-luck`
+
 can be vulnerable to dictionary-based attacks.
 
-🛡️ Password Security Lessons
+<hr>
+
+# 🛡️ Password Security Lessons
 Strong passwords should:
 
-✅ Be long and unique
-✅ Use uppercase and lowercase characters
-✅ Include numbers and special characters
-✅ Avoid common words
-✅ Avoid predictable patterns
-✅ Never be reused across multiple accounts
+- Be long and unique
+- Use uppercase and lowercase characters
+- Include numbers and special characters
+- Avoid common words
+- Avoid predictable patterns
+- Never be reused across multiple accounts
+
 Additional protection can be provided through:
 
-🔐 Password managers
-🔑 Multi-factor authentication
-🛡️ Strong password policies
-🚨 Account lockout and rate limiting
-🌐 Real-World Relevance
+- Password managers
+- Multi-factor authentication
+- Strong password policies
+- Account lockout and rate limiting
+
+<hr>
+
+# 🌐Real-World Relevance
+
 Password-cracking techniques are useful during authorized cybersecurity assessments for:
 
-🔍 Evaluating password policies
-🛡️ Identifying weak credentials
-🎓 Security awareness and education
-🔐 Testing password-protection mechanisms
-🚨 Understanding attacker techniques
+- Evaluating password policies
+- Identifying weak credentials
+- Security awareness and education
+- Testing password-protection mechanisms
+- Understanding attacker techniques
+
 The purpose of ethical password auditing is to identify weaknesses before malicious attackers can exploit them.
 
-💻 John the Ripper Commands
-Dictionary Attack
+<hr>
+
+# 💻 John the Ripper Commands
+
+## Dictionary Attack
+
 john --wordlist=rockyou.txt hash.txt
-Display Recovered Password
+
+## Display Recovered Password
+
 john --show hash.txt
-⚠️ These commands should only be used against hashes and systems you are authorized to test.
 
-🛠️ Tools & Resources
-Tool	Purpose	Link
-John the Ripper	Password auditing and cracking	https://www.openwall.com/john/
-Johnny GUI	GUI for John the Ripper	https://openwall.info/wiki/john/johnny
-Networkwalks	Cybersecurity training/tools	https://networkwalks.com/
-📊 Lab Summary
-Lab	Tool	Attack Type	Result
-W3-PM1	JTR + Johnny	Dictionary Attack	good-luck
-W3-PM2	NW Tools	Dictionary Attack	password1
-📈 Skills Practiced
-Linux Cybersecurity JTR Networking
+> ⚠️ These commands should only be used against hashes and systems you are authorized to test.
 
-🔐 Password security
-🔎 Hash analysis
-🛠️ John the Ripper
-🖥️ Johnny GUI
-📖 Dictionary attacks
-🌐 Security tools
-📝 Security documentation
-📸 Technical evidence collection
-📬 Connect With Me
+<hr>
+
+# 🛠️ Tools & Resources
+
+| Tool |	Purpose | Link |
+|---|---|---|
+| John the Ripper	| Password auditing and cracking | https://www.openwall.com/john/ |
+| Johnny GUI | GUI for John the Ripper	| https://openwall.info/wiki/john/johnny |
+| Networkwalks	| Cybersecurity training/tools | https://networkwalks.com/ |
+
+<hr>
+
+# 📈 Skills Practiced
+
+- Password security
+- Hash analysis
+- John the Ripper
+- Johnny GUI
+- Dictionary attacks
+- Security tools
+- Security documentation
+- Technical evidence collection
+
+  <hr>
+  
+# Connect With Me
+
 💼 LinkedIn:
-My-LINKEDIN
 
 🐙 GitHub:
-My-GITHUB
+
+<hr>
 
 🙏 Acknowledgments
 Special thanks to:
 
-Waqas Karim (CCIE)
+**Waqas Karim (CCIE)**
 Instructor & Mentor
 
-NETWORKWALKS
+**NETWORKWALKS**
 For providing hands-on cybersecurity training and practical lab experience.
 
-⚠️ Disclaimer
+<hr>
+
+> ⚠️ Disclaimer
 This repository was created for educational and cybersecurity training purposes only.
 
 All password-cracking techniques demonstrated here were performed against authorized files and systems as part of a formal training environment.
